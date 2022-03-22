@@ -84,6 +84,24 @@
 		</tbody>
 	</table>
 	
+    <?php
+    $fp = fopen('scores.txt', 'r');
+    while ($line = fgets($fp)){
+        $linearray = explode(":", $line);
+        if($linearray[0]=="counter"){
+            $string_turnCounter = $linearray[1];
+        }
+        if($linearray[0]=="player1"){
+            $string_playerOneScore = $linearray[1];
+        }
+        if($linearray[0]=="player2"){
+            $string_playerTwoScore = $linearray[1];
+        }
+    
+    }
+    fclose($fp);
+    ?>
+
 	
 	<table class="scores">
 		<tr class="content-name">
@@ -92,8 +110,17 @@
 			
 		</tr>
 		<tr class="content-money">
-			<td class="p1-score" data-score="0">$0</td>
-			<td class="p2-score" data-score="0">$0</td>
+			<td class="p1-score" >
+                <?php 
+                echo $string_playerOneScore;
+                ?>
+            </td>
+			
+            <td class="p2-score" >
+            <?php 
+                echo $string_playerTwoScore;
+                ?>
+            </td>
 			
 		</tr>
 

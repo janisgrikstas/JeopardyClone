@@ -1,0 +1,60 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #a6a6ff;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50pt;
+    text-shadow: 4px 4px #000;;
+    color: #ffffee;
+    letter-spacing: 7pt;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 25pt;
+    text-shadow:1px 1px #003;
+    color: rgb(14, 14, 252);
+    margin: 0 0 40px 0;
+}
+
+h2 strong {
+    font-size: 22pt;
+    color: #fff;
+}
+  
+input[type=submit]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid  #0000ff;
+    background-color:  #3d3dff;
+    color: white;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid  #0000ff;
+    background-color: rgb(231, 231, 255);
+    color: #0000ff
+}
