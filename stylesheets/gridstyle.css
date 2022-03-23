@@ -1,0 +1,40 @@
+
+html, body, table {margin: 0; 
+    padding: 0; 
+    background-color: #0000ff; 
+    color: #ffffff;}
+td, th {text-align: center; 
+    vertical-align: middle; 
+    border: 1px #ccccff solid;}
+table {width: 100vw; 
+    height: 100vh; 
+    border-spacing: 0; 
+    border-collapse: collapse;}
+h2{color: #ffff33; 
+    text-shadow: black 5px 5px; 
+    font-family: "Impact"; 
+    margin:auto; 
+    padding: 0; 
+    text-align: center;
+    font-size: 8vh;
+
+}
+.game td {width: 20vw; height: 16.66vh; font-size: 10vh;}
+.game th {width: 20vw; height: 16.66vh; font-size: 6vh;}
+.game td.tile {cursor: pointer;}
+		
+a:link{color: #FFFF00;}
+a:hover {background-color: #1144ff;}
+a:visited {color:#a0a0b0;
+    background-color:#babacc;
+}
+
+
+.scores th {width: 33.33vw; height: 30vh; font-size: 10vh;}
+.scores td {width: 33.33vw; height: 20vh; font-size: 10vh;}
+
+
+.content-money {color: #ffff33; text-shadow: black 5px 5px; font-family: "Impact";}
+.content-name {color: #ffffee; text-shadow: black 3px 3px; font-family: "HelveticaNeue-CondensedBold";}
+.content-text {color: #ffffee; text-shadow: black 5px 5px; font-weight: bold; font-family: "Korinna";}
+.content-title {color: #ffffee; text-shadow: black 5px 5px; letter-spacing: 3pt; font-family: "Gyparody";}

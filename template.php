@@ -2,36 +2,32 @@
 <html>
 <head>
 	<title>Jeopardy</title>
-	<style>
-		html, body, table {margin: 0; padding: 0; background-color: #0000ff; color: #ffffff;}
-		td, th {text-align: center; vertical-align: middle; border: 1px #ccccff solid;}
-		table {width: 100vw; height: 100vh; border-spacing: 0; border-collapse: collapse;}
-
-		.game td {width: 20vw; height: 16.66vh; font-size: 10vh;}
-		.game th {width: 20vw; height: 16.66vh; font-size: 6vh;}
-		.game td.tile {cursor: pointer;}
-		
-        a:link{color: #FFFF00;}
-        a:hover {background-color: #1144ff;}
-        a:visited {color:#a0a0b0;
-        background-color:#babacc;
-        }
-
-
-		.scores th {width: 33.33vw; height: 30vh; font-size: 10vh;}
-		.scores td {width: 33.33vw; height: 20vh; font-size: 10vh;}
-
-
-		.content-money {color: #ffff33; text-shadow: black 5px 5px; font-family: "Impact";}
-		.content-name {color: #ffffee; text-shadow: black 3px 3px; font-family: "HelveticaNeue-CondensedBold";}
-		.content-text {color: #ffffee; text-shadow: black 5px 5px; font-weight: bold; font-family: "Korinna";}
-		.content-title {color: #ffffee; text-shadow: black 5px 5px; letter-spacing: 3pt; font-family: "Gyparody";}
-	</style>
+	<link href="/jeopardyClone/stylesheets/gridstyle.css" type="text/css" rel="stylesheet" />
 	
-		
 </head>
 <body>
-	
+	<?php 
+
+        $fp = fopen('scores.txt', 'r');
+                    
+        while ($line = fgets($fp)){
+            $linearray = explode(":", $line);
+            if($linearray[0]=="counter"){
+                $string_turnCounter = $linearray[1];
+                $turnCounter=intval($string_turnCounter);
+            }
+        }    
+            
+        if($turnCounter%2==0){
+            echo '<h2>Player 2 Pick a Question:</h2>';
+        }
+        else{
+            echo '<h2>Player 1 Pick a Question:</h2>';
+        }
+
+        fclose($fp);
+
+    ?>
 	<table class="game">
 		<thead class="content-name">
 			<tr>
