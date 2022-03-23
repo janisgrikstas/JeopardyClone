@@ -7,8 +7,8 @@
 
 <body>
   <div class="container">
-    <h1>Category 1: $100</h1>
-    <h2>question question question question</strong></h2>
+    <h1>Geography: $400</h1>
+    <h2>What is the second largest country in the World?</h2>
     
     <form action="4_400submit.php" method="post">
     Answer: <input type="text" name="ans"><br>

@@ -7,8 +7,8 @@
 
 <body>
   <div class="container">
-    <h1>Category 1: $100</h1>
-    <h2>question question question question</strong></h2>
+    <h1>Music: $400</h1>
+    <h2>Who won the award for Musician of the Century:</h2>
     
     <form action="5_400submit.php" method="post">
     Answer: <input type="text" name="ans"><br>
