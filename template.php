@@ -35,11 +35,11 @@
 	<table class="game">
 		<thead class="content-name">
 			<tr>
-				<td>category 1</td>
-                <td>category 2</td>
-                <td>category 3</td>
-                <td>category 4</td>
-                <td>category 5</td>
+				<td>Entert-<br>ainment</td>
+                <td>Celebrity's Countries</td>
+                <td>Capital Cities</td>
+                <td>Geography</td>
+                <td>Music</td>
 			</tr>
 		</thead>
 		<tbody class="content-money">

@@ -11,7 +11,7 @@
 		
 		    <?php
                 //NEED TO DO FOR EVERY PAGE: change to the correct answer
-                $correctAns = "Johnny Depp";
+                $correctAns = "Mexico";
                 
                 $turnCounter;
                 $playerOneScore;
@@ -49,11 +49,11 @@
                         //adding the points into the respective player's scores variables,
                         // based on the turn counter
                         if($turnCounter%2==0){
-                            $playerTwoScore =$playerTwoScore + 100;
+                            $playerTwoScore =$playerTwoScore + 200;
                             $turnCounter = $turnCounter + 1;
                         }
                         else{
-                            $playerOneScore= $playerOneScore + 100;
+                            $playerOneScore= $playerOneScore + 200;
                             $turnCounter = $turnCounter + 1;
                         }
                            

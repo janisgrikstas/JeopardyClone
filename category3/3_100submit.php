@@ -11,7 +11,7 @@
 		
 		    <?php
                 //NEED TO DO FOR EVERY PAGE: change to the correct answer
-                $correctAns = "Johnny Depp";
+                $correctAns = "Washington DC";
                 
                 $turnCounter;
                 $playerOneScore;

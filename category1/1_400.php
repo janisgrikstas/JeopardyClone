@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="stylesheets/formstyle.php">
+<link href="/jeopardyClone/stylesheets/formstyle.css" type="text/css" rel="stylesheet" />
 </head>
 <title>Jeopardy</title>
 
 <body>
   <div class="container">
-    <h1>Category 1: $100</h1>
-    <h2>question question question question</strong></h2>
+    <h1>Entertainment: $400</h1>
+    <h2>How Many Seasons does the show FRIENDS have?</h2>
     
     <form action="1_400submit.php" method="post">
     Answer: <input type="text" name="ans"><br>
