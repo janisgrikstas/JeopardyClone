@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="/jeopardyClone/stylesheets/formstyle.css" type="text/css" rel="stylesheet" /> 
+  <link href="../stylesheets/formstyle.css" type="text/css" rel="stylesheet" /> 
 </head>
 <title>Jeopardy</title>
 

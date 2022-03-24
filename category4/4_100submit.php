@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>Jeopardy</title>
-		<link href="/jeopardyClone/stylesheets/formstyle.css" type="text/css" rel="stylesheet" />
+		<link href="../stylesheets/formstyle.css" type="text/css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -76,7 +76,7 @@
                     fwrite($rewritingfile, "player2:".$playerTwoScore);
                     fclose($rewritingfile);
 
-                    echo "<a href = '/jeopardyClone/template.php'> next round-> </a>";
+                    echo "<a href = '../template.php'> next round-> </a>";
 
 		        }
 		    ?>

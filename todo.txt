@@ -1,0 +1,2 @@
+Sessions (use sessions to keep track of turn instead of counter)
+Login / Registration saved on to text filegit o

@@ -1,8 +1,11 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html>
 <head>
 	<title>Jeopardy</title>
-	<link href="/jeopardyClone/stylesheets/gridstyle.css" type="text/css" rel="stylesheet" />
+	<link href="./stylesheets/gridstyle.css" type="text/css" rel="stylesheet" />
 	
 </head>
 <body>

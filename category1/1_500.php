@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="stylesheets/formstyle.php">
+<link href="../stylesheets/formstyle.css" type="text/css" rel="stylesheet" />
 </head>
 <title>Jeopardy</title>
 
