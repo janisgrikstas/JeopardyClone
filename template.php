@@ -126,7 +126,7 @@ session_start();
 		
 		
 	</table>
-	
+	<a href="logout.php">Log Out Btn</a>
     
 </body>
 </html>
