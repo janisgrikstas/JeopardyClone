@@ -1,2 +1,3 @@
-Sessions (use sessions to keep track of turn instead of counter)
-Login / Registration saved on to text filegit o
+Add session variables to keep track of counter
+Style Login, Registration form and logout btn
+Write top scores to file
