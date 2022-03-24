@@ -5,8 +5,8 @@ session_start();
 <html>
 <head>
 	<title>Jeopardy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="./stylesheets/gridstyle.css" type="text/css" rel="stylesheet" />
-	
 </head>
 <body>
 	<?php 
@@ -104,8 +104,12 @@ session_start();
 	
 	<table class="scores">
 		<tr class="content-name">
-			<th><span class="player">Player 1</span></th>
-			<th><span class="player">Player 2</span></th>
+			<th><span class="content-money">Player 1: <?php 
+                echo $string_playerOneScore;
+                ?></span></th>
+			<th><span class="content-money">Player 2: <?php 
+                echo $string_playerTwoScore;
+                ?></span></th>
 			
 		</tr>
 		<tr class="content-money">
@@ -126,7 +130,6 @@ session_start();
 		
 		
 	</table>
-	<a href="logout.php">Log Out Btn</a>
-    
+    <button class="button"><a href="logout.php">Log Out Btn</a></button>
 </body>
 </html>

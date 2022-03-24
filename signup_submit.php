@@ -21,7 +21,7 @@ if(isset($_POST["user"]) && isset($_POST["pass"]))
     {
         echo $_POST["user"];
         echo ' existed!\r\n';
-        include 'reg.html';
+        include 'signup.html';
     }
     else
     {
@@ -34,6 +34,6 @@ if(isset($_POST["user"]) && isset($_POST["pass"]))
 }
 else
 {
-    include 'reg.html';
+    include 'signup.html';
 }
 ?>

@@ -1,4 +1,3 @@
-
 html, body, table {margin: 0; 
     padding: 0; 
     background-color: #0000ff; 
@@ -38,3 +37,8 @@ a:visited {color:#a0a0b0;
 .content-name {color: #ffffee; text-shadow: black 3px 3px; font-family: "HelveticaNeue-CondensedBold";}
 .content-text {color: #ffffee; text-shadow: black 5px 5px; font-weight: bold; font-family: "Korinna";}
 .content-title {color: #ffffee; text-shadow: black 5px 5px; letter-spacing: 3pt; font-family: "Gyparody";}
+
+.button {
+    margin:auto;
+    vertical-align: middle;
+}

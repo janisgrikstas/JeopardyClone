@@ -1,4 +1,4 @@
-<?php  session_start(); ?>  // session starts with the help of this function 
+<?php  session_start(); ?>
  
 <?php
  
