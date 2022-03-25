@@ -126,10 +126,9 @@ session_start();
             </td>
 			
 		</tr>
-
-		
-		
 	</table>
+    <div class="center">
     <button class="button"><a href="logout.php">Log Out Btn</a></button>
+</div>
 </body>
 </html>
