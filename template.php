@@ -104,12 +104,8 @@ session_start();
 	
 	<table class="scores">
 		<tr class="content-name">
-			<th><span class="content-money">Player 1: <?php 
-                echo $string_playerOneScore;
-                ?></span></th>
-			<th><span class="content-money">Player 2: <?php 
-                echo $string_playerTwoScore;
-                ?></span></th>
+			<th><span class="content-money">Player 1</span></th>
+			<th><span class="content-money">Player 2</span></th>
 			
 		</tr>
 		<tr class="content-money">
@@ -128,7 +124,7 @@ session_start();
 		</tr>
 	</table>
     <div class="center">
-    <button class="button"><a href="logout.php">Log Out Btn</a></button>
+    <a class="logout" href="logout.php">Logout</a>
 </div>
 </body>
 </html>
